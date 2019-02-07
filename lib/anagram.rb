@@ -1,4 +1,6 @@
-# Your code goes here!
+
+[1, 3, 2].sort == [3, 2, 1].sort
+
 
 class Anagram
 attr_accessor :word
@@ -9,9 +11,10 @@ attr_accessor :word
 
   def match(word)
   word.select do |word|
-      word.split("").sort == @word.split("").sort
-    end
-  end
+  word.split("").sort == @word.split("").sort
+end
 end
 
-[1, 3, 2].sort == [3, 2, 1].sort
+
+
+end
