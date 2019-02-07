@@ -1,4 +1,5 @@
-[1, 3, 2].sort == [3, 2, 1].sort
+# Your code goes here!
+
 class Anagram
 attr_accessor :word
 
@@ -12,3 +13,5 @@ attr_accessor :word
     end
   end
 end
+[1, 3, 2].sort == [3, 2, 1].sort
+
