@@ -12,4 +12,3 @@ attr_accessor :word
       word.split("").sort == @word.split("").sort
     end
   end
-end
