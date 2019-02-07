@@ -8,7 +8,7 @@ attr_accessor :word
   end
 
   def match(word)
-    each.word.select do |word|
+  word.select do |word|
       word.split("").sort == @word.split("").sort
     end
   end
