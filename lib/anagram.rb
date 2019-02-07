@@ -14,4 +14,3 @@ attr_accessor :word
   end
 end
 [1, 3, 2].sort == [3, 2, 1].sort
-
